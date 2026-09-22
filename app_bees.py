@@ -53,7 +53,7 @@ try:
 
 
     # LOGIN (SENHA)
-    browser.find_element(By.ID, "password").send_keys("Maina@1328")
+    browser.find_element(By.ID, "password").send_keys("------")
     sleep(1)
     browser.find_element(By.ID, "next").click()
 
